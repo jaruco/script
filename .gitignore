@@ -1,0 +1,16 @@
+# Ignorar archivos y carpetas innecesarios
+*.pyc
+__pycache__/
+*.log
+*.sqlite3
+.DS_Store
+
+# Ignorar archivos de configuración sensibles
+*.env
+
+# Ignorar archivos de datos
+pokemon_data.json
+
+# Ignorar configuraciones específicas del entorno
+.vscode/
+.idea/
