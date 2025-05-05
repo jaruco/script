@@ -1,36 +1,36 @@
 # Pokémon Data Script
 
-Este proyecto contiene scripts en Python para descargar datos de todos los Pokémon en formato JSON y luego importarlos a una tabla MySQL.
+This project contains Python scripts to download data for all Pokémon in JSON format and then import them into a MySQL table.
 
-## Archivos principales
+## Main Files
 
-- `pokemon_pip.py`: Script para descargar los datos de los Pokémon y guardarlos en un archivo JSON.
-- `import_to_mysql.py`: Script para importar los datos del archivo JSON a una tabla MySQL.
-- `pokemon_data.json`: Archivo generado que contiene los datos de los Pokémon en formato JSON.
+- `pokemon_pip.py`: Script to download Pokémon data and save it to a JSON file.
+- `import_to_mysql.py`: Script to import data from the JSON file into a MySQL table.
+- `pokemon_data.json`: Generated file containing Pokémon data in JSON format.
 
-## Requisitos
+## Requirements
 
-- Python 3.8 o superior
+- Python 3.8 or higher
 - MySQL Server
-- Paquetes de Python listados en `requirements.txt` (si aplica)
+- Python packages listed in `requirements.txt` (if applicable)
 
-## Uso
+## Usage
 
-1. Ejecuta `pokemon_pip.py` para descargar los datos de los Pokémon:
+1. Run `pokemon_pip.py` to download the Pokémon data:
    ```bash
    python pokemon_pip.py
    ```
 
-2. Ejecuta `import_to_mysql.py` para importar los datos a MySQL:
+2. Run `import_to_mysql.py` to import the data into MySQL:
    ```bash
    python import_to_mysql.py
    ```
 
-## Notas
+## Notes
 
-- Asegúrate de configurar correctamente las credenciales de MySQL en `import_to_mysql.py`.
-- El archivo `pokemon_data.json` se generará automáticamente al ejecutar `pokemon_pip.py`.
+- Make sure to properly configure MySQL credentials in `import_to_mysql.py`.
+- The `pokemon_data.json` file will be generated automatically when running `pokemon_pip.py`.
 
-## Contribuciones
+## Contributions
 
-Si deseas contribuir a este proyecto, por favor abre un issue o envía un pull request.
+If you want to contribute to this project, please open an issue or submit a pull request.
